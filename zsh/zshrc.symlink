@@ -1,0 +1,9 @@
+export EDITOR="subl -n -w"
+export VISUAL="subl -n -w"
+
+source "${HOME}/.dotfiles/zsh/config.zsh"
+source "${HOME}/.dotfiles/zgen/init.zsh"
+
+if [ -f "${HOME}/.localrc" ]; then
+  source "${HOME}/.localrc"
+fi
