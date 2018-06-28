@@ -8,5 +8,6 @@ DOTFILES_ROOT=$(pwd -P)
 ./zgen/install.sh
 
 ln -sf "$DOTFILES_ROOT/zsh/.zshrc" "$HOME"
+ln -sf "$DOTFILES_ROOT/.vim" "$HOME"
 
 echo 'all done!'
