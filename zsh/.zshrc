@@ -7,6 +7,7 @@ source "${HOME}/dotfiles/zsh/config.zsh"
 source "${HOME}/dotfiles/zsh/aliases.zsh"
 source "${HOME}/dotfiles/rbenv/init.zsh"
 source "${HOME}/dotfiles/docker/completion.zsh"
+source "${HOME}/dotfiles/ctags/alias.zsh"
 source "${HOME}/dotfiles/zgen/init.zsh"
 
 if [ -f "${HOME}/.localrc" ]; then
