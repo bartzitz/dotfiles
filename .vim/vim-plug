@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'elixir-lang/vim-elixir'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
