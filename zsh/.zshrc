@@ -5,6 +5,7 @@ export PATH="${HOME}/bin:${PATH}"
 
 source "${HOME}/dotfiles/zsh/config.zsh"
 source "${HOME}/dotfiles/zsh/aliases.zsh"
+source "${HOME}/dotfiles/rbenv/init.zsh"
 source "${HOME}/dotfiles/docker/completion.zsh"
 source "${HOME}/dotfiles/zgen/init.zsh"
 
