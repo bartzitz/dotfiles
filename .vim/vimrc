@@ -21,4 +21,11 @@ syntax enable
 set background=dark
 colorscheme gruvbox
 
+" Load plugins
 source ~/dotfiles/.vim/vim-plug
+
+" Keyboard shortcuts
+
+" Ctrl-S to save file
+noremap <M-s> :update<CR> 
+
