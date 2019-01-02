@@ -17,12 +17,13 @@ set incsearch  " incremental search highlighting
 set ignorecase " case-insensitive search
 set smartcase  " switch to case-sensitive search when uppercase letters entered
 
-syntax enable
-set background=dark
-colorscheme gruvbox
-
 " Load plugins
 source ~/.vim/vim-plug
+
+" Colors
+syntax enable
+set background=dark
+colorscheme base16-default-dark
 
 " Keyboard shortcuts
 
