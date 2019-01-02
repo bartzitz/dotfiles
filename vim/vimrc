@@ -22,7 +22,7 @@ set background=dark
 colorscheme gruvbox
 
 " Load plugins
-source ~/dotfiles/.vim/vim-plug
+source ~/.vim/vim-plug
 
 " Keyboard shortcuts
 
