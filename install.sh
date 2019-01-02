@@ -30,3 +30,6 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/vim ~/.vim
 
+# Install vim plugins
+vim +PlugInstall +qall
+
