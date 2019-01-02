@@ -320,6 +320,10 @@
 	<string>269 328 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 877 0 0 1440 877 </string>
+	<key>NeverWarnAboutShortLivedSessions_9E84B74B-DC37-43E1-B7B1-8227D1C166E7</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_9E84B74B-DC37-43E1-B7B1-8227D1C166E7_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -970,7 +974,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
