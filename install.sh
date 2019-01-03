@@ -8,9 +8,7 @@ if [ ! -f /usr/local/bin/brew ]; then
 fi
 
 # Install homebrew apps
-brew cask install iterm2
-brew cask install clipy
-brew install zsh
+brew bundle
 
 # Setup zsh
 
