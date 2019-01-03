@@ -1000,7 +1000,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/bbartsyts</string>
+			<string>~/</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
@@ -1049,7 +1049,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/bbartsyts/dotfiles/iterm2</string>
+	<string>~/dotfiles/iterm2</string>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1693,7 +1693,7 @@
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
-											<string>/Users/bbartsyts</string>
+											<string>~/</string>
 										</dict>
 										<key>Bookmark Name</key>
 										<string>Default</string>
@@ -1706,19 +1706,12 @@
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/bbartsyts</string>
+											<string>~/</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
-										<key>Program</key>
-										<dict>
-											<key>Command</key>
-											<string>login -fp "bbartsyts"</string>
-											<key>Type</key>
-											<string>Command</string>
-										</dict>
 										<key>Rows</key>
 										<integer>43</integer>
 										<key>Session Default Name</key>
@@ -1737,7 +1730,7 @@
 											<string>$$</string>
 										</dict>
 										<key>Working Directory</key>
-										<string>/Users/bbartsyts</string>
+										<string>~/</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
