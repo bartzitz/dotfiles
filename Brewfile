@@ -1,5 +1,6 @@
 tap "homebrew/cask"
 cask "iterm2"
+cask "docker"
 cask "clipy"
 brew "zsh"
 brew "asdf"
