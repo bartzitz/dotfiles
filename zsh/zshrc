@@ -20,6 +20,14 @@ bindkey -e
 alias l="ls -l"
 alias la="ls -la"
 
+alias gs="git status"
+alias gb="git branch"
+alias ga="git add -p"
+alias gd="git diff --color-words"
+alias gl="git log --pretty=format:'%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]' --decorate --date=short"
+alias gp="git pull"
+alias gco="git checkout"
+
 # History
 
 HISTFILE=~/.zsh_history
