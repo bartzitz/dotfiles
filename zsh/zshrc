@@ -1,13 +1,15 @@
+# Environment
+
+export PATH=~/tcc/aws-inf/scripts/utils:$PATH
+export LANG="en_GB.UTF-8"
+export EDITOR=vim
+
 # Completion
 
 autoload -Uz compinit && compinit
 
 # Matches case insensitive for lowercase
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
-
-# Editor
-
-export EDITOR=vim
 
 # Keyboard bindings
 
