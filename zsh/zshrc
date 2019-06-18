@@ -33,6 +33,9 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gp="git pull"
 alias gco="git checkout"
 
+alias d="docker"
+alias doc="docker-compose"
+
 # History
 
 HISTFILE=~/.zsh_history
