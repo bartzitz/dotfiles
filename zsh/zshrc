@@ -32,6 +32,7 @@ alias gd="git diff"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gp="git pull"
 alias gco="git checkout"
+alias gcm="git commit"
 
 alias d="docker"
 alias doc="docker-compose"
