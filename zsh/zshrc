@@ -1,6 +1,6 @@
 # Environment
 
-export PATH=~/tcc/aws-inf/scripts/utils:$PATH
+export PATH=~/tcc/aws-inf/scripts/utils:~/bin:$PATH
 export LANG="en_GB.UTF-8"
 export EDITOR=vim
 
