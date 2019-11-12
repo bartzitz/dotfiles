@@ -35,6 +35,7 @@ ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 ln -sf ~/dotfiles/asdfrc ~/.asdfrc
+ln -sf ~/dotfiles/ruby/gemrc ~/.gemrc
 ln -sf ~/dotfiles/bin ~/bin
 
 # Install vim plugins
