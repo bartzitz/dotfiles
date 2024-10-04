@@ -4,6 +4,7 @@ export EDITOR=nvim
 # Shell integrations
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source "$HOME/.asdf/asdf.sh"
@@ -30,4 +31,5 @@ bindkey "^f" forward-word
 # Aliases
 alias ll="ls -l"
 alias la="ls -la"
+alias cd="z"
 alias old_branches="git branch -vv | grep 'origin/.*: gone]' | awk '{print \$1}'"
