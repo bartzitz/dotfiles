@@ -6,6 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.test.vim-test" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.git.neogit" },
