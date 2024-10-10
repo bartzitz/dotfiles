@@ -4,9 +4,16 @@ return {
   ---@type AstroCoreOpts
   opts = function(_, opts)
     local maps = opts.mappings
+    local harpoon = require("harpoon")
 
     -- Map <Leader>gg to open neogit tab page
     maps.n["<Leader>gg"] = "<Cmd>Neogit<CR>"
+
+    -- Map <Leader>1-4 to select Harpooned buffers
+    maps.n["<Leader>1"] = { desc = "Harpoon 1", function() harpoon:list():select(1) end, }
+    maps.n["<Leader>2"] = { desc = "Harpoon 2", function() harpoon:list():select(2) end, }
+    maps.n["<Leader>3"] = { desc = "Harpoon 3", function() harpoon:list():select(3) end, }
+    maps.n["<Leader>4"] = { desc = "Harpoon 4", function() harpoon:list():select(4) end, }
 
     -- Remap vim-test maps from T to t (ToggleTerm)
     local t = maps.n["<Leader>T"]
