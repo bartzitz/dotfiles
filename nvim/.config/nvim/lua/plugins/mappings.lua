@@ -5,6 +5,9 @@ return {
   opts = function(_, opts)
     local maps = opts.mappings
 
+    -- Map <Leader>gg to open neogit tab page
+    maps.n["<Leader>gg"] = "<Cmd>Neogit<CR>"
+
     -- Remap vim-test maps from T to t (ToggleTerm)
     local t = maps.n["<Leader>T"]
     local tf = maps.n["<Leader>Tf"]
