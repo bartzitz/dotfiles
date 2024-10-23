@@ -29,7 +29,8 @@ bindkey "^b" backward-word
 bindkey "^f" forward-word
 
 # Aliases
-alias ll="ls -l"
-alias la="ls -la"
+alias l="eza -T --level=2 --group-directories-first"
+alias ll="l --long"
+alias la="l --all"
 alias cd="z"
 alias old_branches="git branch -vv | grep 'origin/.*: gone]' | awk '{print \$1}'"

@@ -3,6 +3,7 @@ tap "homebrew/services"
 
 brew "asdf"
 brew "fzf"
+brew "eza"
 brew "git"
 brew "neovim"
 brew "postgresql@14", restart_service: true
