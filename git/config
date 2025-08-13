@@ -1,0 +1,42 @@
+[user]
+	email = bbartsyts@n-ix.com
+	name = Borys Bartsyts
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+  context = 3
+  renames = copies
+  interHunkContext = 10
+	# pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	dark = true
+	side-by-side = true
+
+[push]
+  default = current
+  autoSetupRemote = true
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = warn
+
+[merge]
+	conflictstyle = zdiff3
+
+[include]
+	path = ~/.config/delta/themes.gitconfig
+
+[rerere]
+	enabled = true

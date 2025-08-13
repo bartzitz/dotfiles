@@ -1,18 +1,47 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 
-brew "asdf"
-brew "fzf"
-brew "eza"
-brew "git"
-brew "neovim"
-brew "postgresql@14", restart_service: true
-brew "ripgrep"
-brew "starship"
-brew "stow"
+
+# Shell and command line
+
+brew "fish"
+
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-brew "zoxide"
 
+brew "starship" # Shell prompt
+brew "fzf"      # Fuzzy finder
+brew "ripgrep"  # Fast grep
+brew "eza"      # `ls` replacement
+brew "fd"       # `find` replacement
+brew "zoxide"   # `cd` replacement
+
+
+# Programming tools
+
+brew "asdf" # Language version manager
+brew "git"
+brew "lazygit"
+brew "neovim"
+
+brew "lua-language-server"
+brew "ruby-lsp"
+brew "biome"    # JS linter
+brew "stylua"   # Lua linter
+
+brew "heroku/brew/heroku"
+cask "chromedriver"
+
+
+# Services
+
+brew "kanata"   # Keyboard remapper
+brew "postgresql@14", restart_service: true
+
+
+# Desktop apps
+
+cask "raycast"
 cask "wezterm"
+cask "betterdisplay"

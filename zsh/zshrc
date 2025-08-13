@@ -1,4 +1,4 @@
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/dotfiles/bin
 export EDITOR=nvim
 
 # Shell integrations
@@ -29,8 +29,19 @@ bindkey "^b" backward-word
 bindkey "^f" forward-word
 
 # Aliases
-alias l="eza -T --level=2 --group-directories-first"
+alias l="eza -T --level=1 --group-directories-first"
 alias ll="l --long"
-alias la="l --all"
+alias la="l --all --level=1"
+alias t="l --all -I .git"
+alias t2="t --level=2"
+alias t3="t --level=3"
 alias cd="z"
 alias old_branches="git branch -vv | grep 'origin/.*: gone]' | awk '{print \$1}'"
+
+alias gs="git status --short"
+alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
+alias gd="git diff"
+alias gp="git push"
+alias gu="git pull"
+alias vi=nvim
+alias vim=nvim
